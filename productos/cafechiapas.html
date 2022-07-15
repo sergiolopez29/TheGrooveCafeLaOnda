@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Café de Chiapas</title>
+        <link rel="shortcut icon" href="../img/thegroove.jpg"> 
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/skeleton.css">
+        <link rel="stylesheet" href="../css/custom.css">
+        <link rel="stylesheet" href="../css/customproducto.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </head>
+
+    <body>
+        
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+
+                    <div class="four columns">
+                        <a href="../index.html"><img class="logo" src="../img/thegroove.jpg" alt="" width="25%" height="25%" id="logo"></a>
+                    </div>
+
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                <img class="carrito-logo" src="../img/cart.png" alt="" id="img-carrito">
+                                <div id="carrito">
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                            <tr>
+                                                <th><img src="../img/cafeoaxaca.jpeg" class="foto" alt=""></th>
+                                                <th>Café de Oaxaca</th>
+                                                <th>$12</th>
+                                                <th class="boton-clear">X</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                    <button href="#" id="realizar-pedido" class="button u-full-width">Realizar pedido</button>
+                                    <button href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class = "card-wrapper">
+            <div class = "card">
+                <!-- card left -->
+                <div class = "product-imgs">
+                    <div class = "img-display">
+                        <div class = "img-showcase">
+                            <img width="100%" src="../img/cafechiapas.jpeg" alt = "shoe image">
+                        </div>
+                    </div>
+                </div>
+              <!-- card right -->
+              <div class = "product-content">
+                <h2 class = "product-title">Café de Chiapas</h2>
+                <div class = "product-rating">
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star-half-alt"></i>
+                  <span>4.7(21)</span>
+                </div>
+      
+                <div class = "product-price">
+                  <h5 class = "new-price">Precio: <span>$12</span></h5>
+                  
+                  <h3>Sobre el producto: </h3>
+                  <h4>Café importado desde Chiapas<h4>
+                    <br>
+                    <h4>Marca: Álamos Café</h4>
+                    <h4>Cantidad: 250gr</h4>
+                </div>
+      
+                <div class = "purchase-info">
+                  <input class="colortexto" type = "number" min = "0" value = "1">
+                  <button type = "button" class = "btn">
+                    Añadir al carrito <i class = "fas fa-shopping-cart"></i>
+                  </button>
+                </div>
+      
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="footer">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="four columns">
+                        <nav id="principal" class="menu">
+                            <a class="enlace" href="#">Contacto</a>
+                            <a class="enlace" href="#">Conviertete en socio</a>
+                        </nav>
+                    </div>
+
+                    <div class="four columns">
+                        <nav id="secundario" class="menu">
+                            <a class="enlace" href="#">¿Quiénes somos?</a>
+                            <a class="enlace" href="#">Empleo</a>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+    </body>
+</html>

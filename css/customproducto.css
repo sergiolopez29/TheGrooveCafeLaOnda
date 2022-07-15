@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.product-content{
+    padding: 2rem 1rem;
+}
+.product-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin: 1rem 0;
+}
+.product-title::after{
+    content: "";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+}
+
+.product-link:hover{
+    opacity: 0.9;
+}
+.product-rating{
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: 600;
+    color: goldenrod;
+}
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+.product-price span{
+    font-weight: 400;
+}
+
+.new-price span{
+    color: white;
+}
+.product-detail h2{
+    color: white;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+    color: white;
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    color: white;
+}
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+    color: white;
+}
+.product-detail ul li span{
+    font-weight: 400;
+    color: white;
+}
+.purchase-info{
+    margin: 1.5rem 0;
+}
+.purchase-info input,
+.purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 20px;
+    text-align: center;
+    outline: 0;
+    margin-right: 0.2rem;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+}
+.purchase-info .btn:first-of-type{
+    background: rgb(226, 104, 4);
+}
+.purchase-info .btn:hover{
+    opacity: 0.9;
+}
+
+
+@media screen and (min-width: 992px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 0;
+        color: white;
+    }
+}
+
+.colortexto{
+    color: black;
+}
